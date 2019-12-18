@@ -1,41 +1,16 @@
 {
-  "name": "autodesk/forge-client",
-  "description": "",
-  "keywords": [
-    "swagger",
-    "php",
-    "sdk",
-    "api"
-  ],
-  "homepage": "https://github.com/Autodesk-Forge/forge-php-client",
-  "license": "Apache-2.0",
-  "authors": [
-    {
-      "name": "Autodesk-Forge",
-      "homepage": "https://github.com/Autodesk-Forge"
+    "name": "ash/forge-php-client",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ash Whiting",
+            "email": "ash@digitaltactics.co.uk"
+        }
+    ],
+    "require": {
+        "autodesk/forge-client": "^1.0",
+        "psr/log": "^1.1",
+        "zendframework/zend-httphandlerrunner": "^1.1"
     }
-  ],
-  "require": {
-    "php": ">=5.4",
-    "ext-curl": "*",
-    "ext-json": "*",
-    "ext-mbstring": "*",
-    "autodesk/core": "^1.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "*",
-    "php-coveralls/php-coveralls": "*",
-    "squizlabs/php_codesniffer": "*",
-    "symfony/var-dumper": "*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Autodesk\\Forge\\Client\\": "lib/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Autodesk\\Forge\\Client\\": "test/"
-    }
-  }
 }
